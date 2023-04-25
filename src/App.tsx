@@ -1,3 +1,8 @@
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main
+      className="pattern-cross pattern-blue-500 pattern-bg-white dark:pattern-bg-slate-950 
+      pattern-size-6 pattern-opacity-20 w-screen h-screen grid place-content-center"
+    ></main>
+  );
 }
