@@ -1,4 +1,4 @@
-import Background from "./features/Background/Background";
+import Background from "@/features/Background";
 
 export default function App() {
   return (
