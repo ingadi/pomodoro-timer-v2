@@ -1,3 +1,9 @@
+import Background from "./features/Background/Background";
+
 export default function App() {
-  return <main className="w-screen h-screen grid place-content-center"></main>;
+  return (
+    <main className="relative w-screen h-screen grid place-content-center">
+      <Background />
+    </main>
+  );
 }
